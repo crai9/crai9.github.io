@@ -2,16 +2,20 @@ html, body, div, span, canvas {
     margin: 0;
     padding: 0;
 }
+
 #container {
     overflow: hidden;
     position: relative;
 }
+
 html, body {
     overflow-x: hidden;
 }
+
 canvas {
     display: block;
 }
+
 #canvas {
     top: 0px;
     z-index: -1;
@@ -25,7 +29,9 @@ canvas {
 }
 
 .particles {
-	
 	margin-top: 25%
-	
+}
+
+a {
+    position: absolute;
 }
